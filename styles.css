@@ -1,0 +1,99 @@
+body {
+  font-family: sans-serif;
+  background-color: #252529;
+  margin: 0;
+  color: #ffffff;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: #cccccc;
+}
+
+#showcase {
+  background: url(mainback.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.section-main {
+  margin-top: 10vh;
+  text-align: center;
+}
+
+.section-main h1, .section-main h2 {
+  font-size: 3rem;
+}
+
+.section-main p {
+  font-size: 2rem;
+}
+
+nav {
+  background-color: #252529;
+  color: #eee;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 0;
+  color: #eee;
+  width: 100px;
+}
+
+nav li:hover {
+  background-color: #444;
+}
+
+.down {
+  background-color: #252529;
+}
+
+.list1 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  padding: 2rem;
+  text-align: left;
+  font-size: 14px;
+}
+
+.list1 ul {
+  list-style: none;
+}
+
+.list1 ul li:first-child {
+  font-size: 1.2rem;
+  padding-bottom: 0.5rem;
+  border-bottom: #444 solid 2px;
+  margin-bottom: 1rem;
+}
+
+.footer-bottom {
+  background-color: #252529;
+  padding: 1rem;
+  text-align: center;
+  width: 100%;
+}
+.container h2,
+.container h3{
+  text-align: center;
+
+}
